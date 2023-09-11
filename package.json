@@ -1,0 +1,18 @@
+{
+  "name": "project_bss",
+  "version": "0.2.1",
+  "description": "Website de uma empresa de extintores de incêndio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev"
+  },
+  "keywords": [],
+  "author": "Luis Gustavo",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.4.19",
+    "react-icons": "^4.10.1",
+    "react-responsive-carousel": "^3.2.23"
+  }
+}

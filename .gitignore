@@ -1,0 +1,45 @@
+# Arquivos de compilação e artefatos gerados
+.next/
+out/
+node_modules/
+.DS_Store
+
+# Arquivos de ambiente
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache do VSCode
+.vscode/
+
+# Cache do npm
+.pnp/
+.pnp.js
+
+# Yarn 2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/releases
+.yarn/plugins
+.yarn/sdks
+
+# Cache do ESLint
+.cache/
+.eslintcache
+
+# Cache do Next.js
+.cache/
+next.config.js
+
+# Arquivos de backup
+*.bak
+*.swp
+*~

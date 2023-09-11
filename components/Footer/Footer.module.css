@@ -1,0 +1,86 @@
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+.socialIcons {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-right: 50%;
+    text-align: center;
+}
+
+.socialIcons a {
+    display: inline-block;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.footerNav {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+.navList {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.navItem {
+    margin-bottom: 10px;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navItem a:hover {
+    color: #f11921;
+}
+
+.footerAddress {
+    text-align: center;
+}
+
+.socialIcons, .footerNav, .footerAddress {
+    font-size: 18px;
+}
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .socialIcons {
+        display: inline;
+        max-width: 50%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .socialIcons a {
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .footerNav {
+        display: inline;
+        text-align: center;
+
+    }
+
+    .navList {
+        margin-top: 10px;
+        margin-bottom: 30px;    
+    }    
+
+}
+
+
+.copyRight {
+    color: #333333;
+    background: #000000;
+}
